@@ -1,0 +1,14 @@
+# Build
+node_modules/
+
+# IDE
+.idea/
+*.sublime-*
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# npm
+npm-debug.log
