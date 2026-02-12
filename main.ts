@@ -44,6 +44,9 @@ export default class ObsidianellaDelinkPlugin extends Plugin {
 		// Handle markdown links: [text](url) → text
 		result = result.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
 
+		// Remove Obsidian escape characters: \_ \* \# \[ \] \| \\ etc.
+		result = result.replace(/\\([_*#\[\]|\\`~<>])/g, "$1");
+
 		return result;
 	}
 }
