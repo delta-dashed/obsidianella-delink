@@ -1,6 +1,6 @@
 {
 	"name": "obsidianella-delink",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Copy current note with links converted to plain text",
 	"main": "main.js",
 	"scripts": {
